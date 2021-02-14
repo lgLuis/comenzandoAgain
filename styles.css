@@ -9,6 +9,9 @@
 img{
     width: 450px;
     height: auto;
+    display: block;
+    margin: auto;
+    padding: 10px;
 }
 
 h1{
@@ -19,9 +22,24 @@ h1{
     height: 90px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 
 ul{
     margin: 40px;
+}
+
+
+.textoUno, .textoDos, .textoTres{
+    width: 75%;
+    text-align: justify;
+    margin: 10px auto;
+    border: 1px solid royalblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textoImg{
+    text-align: center;
 }
 
